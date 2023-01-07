@@ -1,7 +1,7 @@
 
 #create folder
 ---
-- hosts: prod
+- hosts: kubenodes
   tasks:
   - name: create a folder
     ansible.builtin.file:
