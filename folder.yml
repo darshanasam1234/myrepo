@@ -1,0 +1,11 @@
+
+#create folder
+---
+- hosts: prod
+  tasks:
+  - name: create a folder
+    ansible.builtin.file:
+      path: /tmp/data
+      state: directory
+      path: /tmp/data2
+      state: directory
